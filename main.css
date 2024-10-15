@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-image: url('header-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.main-content {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.main-content h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.main-content img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.address, .contact {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.address h3, .contact h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.address p, .contact p {
+    font-size: 1.2em;
+}
+
+.contact a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+.brochure-btn {
+    background-color: #e74c3c;
+    color: white;
+    padding: 15px 35px;
+    text-decoration: none;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+}
+
+.brochure-btn:hover {
+    background-color: #c0392b;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1em;
+}
